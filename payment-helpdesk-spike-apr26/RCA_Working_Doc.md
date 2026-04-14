@@ -19,20 +19,21 @@ _Filled last. 3-4 lines that a stakeholder can read in 10 seconds and know the h
 |-------|-------------|--------|------------------------|
 | Phase 1 | Observation Data Base | DONE | Mar n=6,592 (30d), Apr n=4,998 (13d). Daily avg: 219.7 → 384.5 = 75% spike. |
 | Phase 2 | Headline Numbers — Quantify the Spike | NOT STARTED | — |
-| Phase 3, Cut 1 | By Issue Type | NOT STARTED | — |
-| Phase 3, Cut 2 | By Payment Journey | NOT STARTED | — |
-| Phase 3, Cut 3 | By Customer Cohort (PayG vs Non-PayG) | NOT STARTED | — |
-| Phase 3, Cut 4 | By Payment Method | NOT STARTED | — |
-| Phase 3, Cut 5 | By Timeline — Correlation with Events | NOT STARTED | — |
+| Phase 3, Cut 1 | By Issue Type + Txn Data Verification | NOT STARTED | — |
+| Phase 3, Cut 2 | By Payment Journey + Txn Data Verification | NOT STARTED | — |
+| Phase 3, Cut 3 | By Customer Cohort (PayG vs Non-PayG) + Txn Data Verification | NOT STARTED | — |
+| Phase 3, Cut 4 | By Payment Method + Txn Data Verification | NOT STARTED | — |
+| Phase 3, Cut 5 | By Timeline — Correlation with Events + Txn Data Verification | NOT STARTED | — |
 | Phase 3, Cut 6 | By Repeat vs First-time Complainants | NOT STARTED | — |
-| Phase 3, Cut 7 | By Retry Behaviour | NOT STARTED | — |
-| Phase 3, Cut 8 | By Refund-Related vs Transaction-Related | NOT STARTED | — |
+| Phase 3, Cut 7 | By Retry Behaviour + Txn Data Verification | NOT STARTED | — |
+| Phase 3, Cut 8 | By Refund-Related vs Transaction-Related + Txn Data Verification | NOT STARTED | — |
 | Phase 3.5 | Qualitative Validation (VOC Analysis) | NOT STARTED | — |
 | Phase 4 | Root Cause Chains | NOT STARTED | — |
 | Phase 4.5 | What is NOT a Root Cause | NOT STARTED | — |
-| Phase 5 | Cross-Verify with Txn Data (Metabase + Juspay) | NOT STARTED | — |
-| Phase 5.5 | Payment Funnel per Journey | NOT STARTED | — |
+| Phase 5 | Payment Funnel per Journey (Metabase + Juspay) | NOT STARTED | — |
 | Phase 6 | Final RCA Assembly | NOT STARTED | — |
+
+**Approach note:** Transaction data cross-verification (Metabase/Juspay) is done within each cut — not as a separate phase. Each cut's finding is written only after both ticket data AND transaction data confirm the pattern.
 
 **Last Updated:** 15 Apr 2026
 **Overall Status:** Approach finalized. Awaiting raw ticket data.
